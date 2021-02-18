@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     echo "id: " . $row["id"]. "<br> - Name: " . $row["nama"]. "<br> kantor " . $row["kantor"]. "<br> <br>";
   }
-  echo $result->num_rows
+  echo $result->num_rows;
 } else {
   echo "no results";
 }
